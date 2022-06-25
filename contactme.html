@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>contact me</title>
+    </head>
+    <body>
+        <center><h1>Contact me form</h1></center>
+        <center><h2>Just leave your details here and i will get to you soon</h2></center>
+        <form action="thankyou.html">
+            <p><label for="un">First Name</label>
+            <input type="text" id="un" placeholder="First name" name="un" minlength="3" maxlength="20" required></p>
+            <p>
+                <label for="ln">Last Name</label>
+                <input type="text" id="ln" placeholder="Last name" name="ln" minlength="3" maxlength="20" required>
+            </p>
+            <p><label for="message">Type your message here:  </label>
+                <textarea id="message" rows="5" cols="50" placeholder="Why do you want to contact me?" name="message"></textarea>
+            </p>
+            <p><label for="mail">Enter your mail ID:</label>
+                <input type="email" id="mail" name="mail" placeholder="xyz@mail.com" required>
+            </p>
+            <button>Send Message</button>
+        </form>
+        <hr>
+        <h2>IF YOU NEED SOMETHING ELSE PLEASE SEARCH HERE</h2>
+        <form action="https://www.google.com/search?">
+            <input type="text" placeholder="search" name="q">
+            <button>Search</button>
+        </form>
+    </body>
+</html>
